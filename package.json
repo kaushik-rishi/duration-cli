@@ -1,7 +1,7 @@
 {
 	"name": "duration-cli",
 	"description": "A CLI to calculate audio/video duration",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"type": "module",
 	"bin": {
 		"video-duration-cli": "index.js",
@@ -38,11 +38,11 @@
 		"type": "git",
 		"url": "https://github.com/iamrokt/duration-cli"
 	},
-  "keywords": [
-    "duration",
-    "video",
-    "cli",
-    "get-duration",
-    "ffmpeg"
-  ]
+	"keywords": [
+		"duration",
+		"video",
+		"cli",
+		"get-duration",
+		"ffmpeg"
+	]
 }
