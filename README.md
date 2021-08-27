@@ -8,7 +8,7 @@
 - Windows: https://windowsloop.com/install-ffmpeg-windows-10/
 - macOS: https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Mac-OS-X
 
-
+<br>
 
 2- install the CLI using npm (recommended):
 
@@ -22,7 +22,7 @@ or, run using npx (runs the app without installing on your system):
 npx duration-cli
 ```
 
-
+<br>
 
 3- Go to any directory you'd like to use the app in and run the follwoing command:
 
@@ -35,6 +35,6 @@ dur
 
 ![Demo](https://i.imgur.com/9rIwac8.gif)
 
-
+<br>
 
 The CLI has some bugs of course, but I tried to handle all possible exceptions that may occur. If you run through any problem, open an issue, conatct me at <i>iamrokt@gmail.com</i>, or reach me at instagram <i><@inrokt</i>
