@@ -39,4 +39,4 @@ dur
 
 <br>
 
-The CLI has some bugs of course, but I tried to handle all possible exceptions that may occur. If you run through any problem, open an issue, conatct me at <i>iamrokt@gmail.com</i>, or reach me at instagram <i><@inrokt</i>
+The CLI has some bugs of course, but I tried to handle all possible exceptions that may occur. If you run through any problem, open an issue, conatct me at <i>iamrokt@gmail.com</i>, or reach me through instagram <i>@inrokt</i>
