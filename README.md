@@ -2,6 +2,8 @@
 
 ### How to use?
 
+<br>
+
 1- Make sure you have ffmpeg installed, see the guides below on how to install:
 
 - Linux: https://www.tecmint.com/install-ffmpeg-in-linux/
@@ -24,7 +26,7 @@ npx duration-cli
 
 <br>
 
-3- Go to any directory you'd like to use the app in and run the follwoing command:
+3- Go to any directory you'd like to calculate the duration for,, and run the following command:
 
 ```sh
 dur
