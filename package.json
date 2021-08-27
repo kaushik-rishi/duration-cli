@@ -1,0 +1,37 @@
+{
+  "name": "video-duration-cli",
+  "description": "A CLI to calculate audio/video duration",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "video-duration-cli": "index.js",
+    "dur": "index.js"
+  },
+  "files": [
+    "index.js",
+    "utils"
+  ],
+  "author": {
+    "name": "Muhammad Yasser",
+    "email": "iamrokt@gmail.com",
+    "url": "https://iamrokt.github.io"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "chalk": "^4.1.2",
+    "cli-alerts": "^1.2.2",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-meow-help": "^2.0.2",
+    "cli-welcome": "^2.2.2",
+    "ffprobe": "^1.1.2",
+    "ffprobe-static": "^3.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "get-video-duration": "^4.0.0",
+    "glob": "^7.1.7",
+    "meow": "^10.1.1",
+    "node-ffprobe": "^3.0.0",
+    "ora": "^6.0.0"
+  }
+}
