@@ -1,10 +1,10 @@
-## An intuitive CLI to get audio/video duration in current folder and all inside folders
+## An intuitive CLI to get audio/video duration in current folder and subfolders
 
 ### How to use?
 
-1- Make sure you have ffmpeg installed, see the guide below on how to install:
+1- Make sure you have ffmpeg installed, see the guides below on how to install:
 
-- Linux: https://itsfoss.com/best-markdown-editors-linux/
+- Linux: https://www.tecmint.com/install-ffmpeg-in-linux/
 - Windows: https://windowsloop.com/install-ffmpeg-windows-10/
 - macOS: https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Mac-OS-X
 
