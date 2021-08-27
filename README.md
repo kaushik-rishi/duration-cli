@@ -1,9 +1,7 @@
 ## An intuitive CLI to get audio/video duration in current folder and all inside folders
 
-<br>
 
 ### How to use?
-<br>
 
 1- install using npm (recommended):
 
@@ -23,7 +21,6 @@ npx duration-cli
 ```sh
 dur
 ```
-<br>
 
 #### and voila 🚀
 
@@ -34,4 +31,4 @@ dur
 
 <br>
 
-<p>The CLI has some bugs of course, but I tried to handle all possible exceptions the may occur. If you run through any problem, conatct me at <i>iamrokt@gmail.com</i>. You can also reach me through Instagram at: <i>@inrokt</i></p>
+<p>The CLI has some bugs of course, but I tried to handle all possible exceptions that may occur. If you run through any problem, conatct me at <i>iamrokt@gmail.com</i>. You can also reach me through Instagram at: <i>@inrokt</i></p>
