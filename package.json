@@ -37,5 +37,12 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/iamrokt/duration-cli"
-	}
+	},
+  "keywords": [
+    "duration",
+    "video",
+    "cli",
+    "get-duration",
+    "ffmpeg"
+  ]
 }
