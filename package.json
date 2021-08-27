@@ -1,7 +1,7 @@
 {
 	"name": "duration-cli",
 	"description": "A CLI to calculate audio/video duration",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"type": "module",
 	"bin": {
 		"video-duration-cli": "index.js",
