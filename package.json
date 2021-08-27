@@ -1,5 +1,5 @@
 {
-	"name": "video-duration-cli",
+	"name": "duration-cli",
 	"description": "A CLI to calculate audio/video duration",
 	"version": "0.1.0",
 	"type": "module",
