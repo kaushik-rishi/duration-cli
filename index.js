@@ -58,28 +58,32 @@ async function getFilePaths() {
 	return files;
 }
 
+async function getFileDuration(file) {
+	try {
+		const metadata = await ffprobe(file);
+		return parseFloat(metadata.format.duration);
+	} catch (e) {
+		return null;
+	}
+}
+
 async function getDuration(files) {
-	let duration = 0;
+	let totalDuration = 0;
 	let succeeded = 0;
 	let failed = 0;
 
-	for (const file of files) {
-		try {
-			const metadata = await ffprobe(file);
-			const d = parseFloat(metadata.format.duration);
-			if (!d) {
-				failed++;
-				continue;
-			}
+	const durations = await Promise.all(files.map(getFileDuration));
+
+	for (const duration of durations) {
+		if (duration && !isNaN(duration)) {
+			totalDuration += duration;
 			succeeded++;
-			duration += d;
-		} catch (e) {
+		} else {
 			failed++;
-			continue;
 		}
 	}
 
-	return { succeeded, failed, duration };
+	return { succeeded, failed, totalDuration };
 }
 
 function formatDuration(duration) {
@@ -134,7 +138,7 @@ function addZeroFormatting(n) {
 		process.exit(0);
 	}
 
-	const { h, m, s } = formatDuration(durationData.duration);
+	const { h, m, s } = formatDuration(durationData.totalDuration);
 	// log(formattedDuration);
 
 	// hide loading spinner
